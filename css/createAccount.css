@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid rebeccapurple; */
+    height: 100vh;
+    background-color: rgb(242, 237, 237);
+    font-family: sans-serif;
+}
+.h2CreateAccount{
+    margin-left: 40vw;
+    padding-top: 3vh;
+    font-size: medium;
+    color: #a2055e;
+}
+.allFormDiv{
+    border: 1.5px solid grey;
+    height: 85vh;
+    width: 36vw;
+    position: relative;
+    left: 30vw;
+    top: 3vh;
+}
+.formDiv{
+    /* border: 2px solid red; */
+    height: 73vh;
+    
+}
+
+.h4FullName{
+    /* border: 2px solid red; */
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    padding-top: 2vh;
+    margin-top: 2vh;
+    color: #a2055e;
+}
+.nameBar{
+    border: 1.5px solid grey;
+    color: #a2055e;
+    height: 6vh;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    top: 1vh;
+    
+}
+.h4Email{
+    /* border: 2px solid red; */
+    color: #a2055e;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    padding-top: 3vh;
+}
+.emailBar{
+    border: 1.5px solid grey;
+    height: 6vh;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    top: 1vh;
+}
+.h4Mobile{
+    /* border: 2px solid red; */
+    color: #a2055e;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    padding-top: 3vh;
+}
+.contactBar{
+    border: 1.5px solid grey;
+    height: 6vh;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    top: 1vh;
+}
+.h4Password{
+    /* border: 2px solid red; */
+    color: #a2055e;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    padding-top: 3vh;
+}
+.passwordBar{
+    border: 1.5px solid grey;
+    height: 6vh;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    top: 1vh;
+}
+.h4DOB{
+    /* border: 2px solid red; */
+    color: #a2055e;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    padding-top: 3vh;
+}
+.DOBBar{
+    border: 1.5px solid grey;
+    height: 6vh;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    top: 1vh;
+    font-size: 125%;
+    padding-left: 2vh;
+    padding-right: 20vw;
+
+}
+.createAccountBtn{
+    border: 2px solid #a2055e;
+    background-color: #a2055e;
+    color: white;
+    height: 7vh;
+    width: 30vw;
+    position: relative;
+    left: 3vw;
+    top: 4vh;
+    font-size: 120%;
+    font-family: sans-serif;
+    
+}
+.extraLink{
+    /* border: 2px solid red; */
+    height: 11.5vh;
+}
+.extraLink>h4{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 2vh;
+    color: #a2055e;
+}
+.extraLink>h4>a{
+    color: #000080;
+    text-decoration: none;
+}
+.extraLink>h6{
+    text-align: center;
+    color: #a2055e;   
+    padding-top: 2vh;
+
+}
+.extraLink>h6>a{
+    color: #000080;
+    text-decoration: none;
+}

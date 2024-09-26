@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(232, 160, 147);
+    border: 2px solid red;
+
+}
+.navbar{
+    height: 50vh;
+    width: 100vw;
+    background-color: silver;
+    display: flex;
+}
+.about{
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+    padding-right: 3em;
+    position: relative;
+    /* left: 5vw; */
+    border: 2px solid red;
+
+}
+.help{
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+    position: relative;
+    /* left: 26vw; */
+    border: 2px solid red;
+}
+.account{
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+    position: relative;
+    /* left: 50vw; */
+    border: 2px solid red;
+}
+.follow{
+    height: 50vh;
+    width: 25vw;
+    text-align: center;
+    position: relative;
+    /* left: 70vw; */
+    border: 2px solid red;
+}
+.followIcon{
+    position: relative;
+    top: 2vh;
+}
+.app{
+    position: relative;
+    top: 5vh;
+}
+.payment{
+    position: relative;
+    top: 10vh;
+
+}
+.terms{
+    border: 2px solid red;
+    height: 8vh;
+    width: 25vw;
+    padding-top: 2vh ;
+    display: flex;
+    position: relative;
+    top: 50vh;
+    right: 40vw;
+}
+h3{
+    
+}
+.warning{
+    height: 5vh;
+    width: 25vw;
+    border: 2px solid red;
+}

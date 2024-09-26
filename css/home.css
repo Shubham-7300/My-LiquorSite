@@ -1,0 +1,669 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* NavBar css */
+ /* ------------------------------------------------------------------------- */
+
+.centerText{
+  /* border: 2px solid red; */
+  background-color: #a2055e;
+  height: 5vh;
+  /* width: 100vw; */
+  text-decoration:none;
+  font-family: sans-serif;
+}
+.centerText>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(237, 217, 217);
+  font-weight: 600;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.mid{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  background-color:rgba(204, 174, 162, 0.628); 
+  height: 10vh;
+  /* width: 100vw; */
+  }
+.searchForm{
+  /* border: 2px solid red; */
+  position: relative;
+  left: .5vw;
+  height: 10vh;
+  width: 35vw;
+  padding-top: 2vh;  
+  font-family: sans-serif;
+  }
+.searchBar{
+  /* border: 2px solid red; */
+  border: none;
+  height: 6vh;
+  width: 35vw;
+  background-color: rgb(239, 228, 228) ;
+  padding-left: 5%;
+  font-family: sans-serif;
+  }
+.searchBtn{
+  /* border: 2px solid red; */
+  border: none;
+  padding-top: 1vh;
+  position: relative;
+  bottom: 6vh;
+  left: 35.1vw;
+  height: 5.9vh;
+  width: 2.5vw;
+  background-image: url(/images/icon/searchIconn.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0%;
+  /* background-color: rgba(186, 165, 156, 0.585) ; */
+  background:#a2055e;
+  /* color: white; */
+}
+.nav-link{
+  /* border: 2px solid red; */
+  position: relative;
+  left: 2vw;
+  height: 8vh;
+  width: 20vw;
+  padding-top: 3vh;
+  padding-left: 1vw;
+}
+#cartIcon{
+  /* border: 2px solid red; */
+  position: relative;
+  right: 5vw;
+  top: 3vh;
+}
+.nav-link>a{
+  border:none;
+  /* border: 2px solid red; */
+  color: rgb(156, 4, 4);
+  font-size: 109%;
+  font-family: sans-serif;
+  text-decoration: none;
+  
+}  
+.footer{
+  /* border: 2px solid red; */
+  height: 8vh;
+  /* width: 100vw; */
+  /* background-color: wheat; */
+  /* background-color: #f2f2f2; */
+  background-color: rgb(245, 236, 236);
+  justify-content: space-between;
+  display: flex;
+  font-family: sans-serif;
+}
+.menu{
+  /* border: 2px solid red; */
+  padding: 1em;
+  display: flex;
+}
+.menuItem a{
+display: flex;
+margin-left: 1em ;
+padding-left: 1em;
+color: rgb(156, 4, 4);
+font-size: 109%;
+font-weight: 500! important;
+font-family: sans-serif;
+font-style:initial;
+text-decoration: none;
+}
+.menuItem{
+  /* border: 2px solid red; */
+  list-style-type: none;
+  display: flex;
+}
+.locationIcon{
+  position: relative;
+  left: 13vw;
+  padding-top: 2.4vh;
+
+}
+.h5Div{
+  /* border: 2px solid red; */
+  position: relative;
+  right: 5vw;
+  width: 15vw;
+  padding-top: 2.6vh;
+  font-family: sans-serif;
+  font-size: large; 
+}
+
+h5{
+  font-family: sans-serif;
+  color: rgb(156, 4, 4);
+  position: relative;
+  left: 2vw;
+  
+}
+
+/* SearchBigBar CSS */
+ /* ------------------------------------------------------------------------- */
+
+
+
+
+
+ /* ItemBar CSS */
+ /* ------------------------------------------------------------------------- */
+.itemsBar{
+  /* border: 2px solid red; */
+  /* background-color: white; */
+  height: 85vh;
+}
+.topItemsBar{
+  /* border: 2px solid red; */
+  display:flex;
+  justify-content: space-around;
+  margin-top: 6vh;
+}
+.topItemsBar>a>img{
+  /* border: 2px solid red; */
+  height: 30vh;
+  width: 15vw;
+  display: block;
+
+}
+.bottomItemsBar{
+  /* border: 2px solid red; */
+  display:flex;
+  justify-content: space-around;
+  margin-top: 12vh;
+}
+.bottomItemsBar>a{
+  /* border: 2px solid red; */
+  color: #14171A;
+}
+.bottomItemsBar>a>img{
+  /* border: 2px solid red; */
+  height: 30vh;
+  width: 15vw;
+  display: block;
+}
+#textEnchor{
+  position: relative;
+  top: 30vh;
+  right: 12.1vw;
+  color: rgb(156, 4, 4);
+  text-decoration: none;
+  font-size: large;
+  font-family:sans-serif;;
+}
+
+
+
+ /* StartShoppingBar CSS */
+ /* ------------------------------------------------------------------------- */
+.startShoppingBar{
+  /* border: 2px solid red; */
+  font-family: Quicksand,Helvetica Neue,Arial;
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+.startShoppingBar>h1{
+  text-align: center;
+  padding-top: 5vh;
+  color:rgb(156, 4, 4);
+  /* border: 2px solid red; */
+}
+.startShoppingDiv{
+  display: flex;
+  justify-content: space-around;
+  margin-top:9vh;
+}
+.addressLogoBar>img{
+  border-radius: 50%;
+  /* background-color: white; */
+  height: 25vh;
+  width: 10vw;
+  display: inline-block;
+  border-style: none;  
+}
+.startShopping{
+  /* border: 2px solid rebeccapurple; */
+  height: 7vh;
+  width: 20vw;
+  margin-top: 25vh;
+  border-radius: 5vh;
+  position: relative;
+  left: 40vw;
+  text-align: center;
+  padding: 1.5vh;
+  background: #a2055e;
+}
+.startShopping>a{
+  color: white;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+
+ /* Shop By Category CSS*/
+ /* ------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+ /* Find Store Map Bar CSS */
+ /* ------------------------------------------------------------------------- */
+
+ .findStoreMapBar{
+  /* border: 2px solid red; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+ }
+ .findStoreMapBarLeft{
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 40vw;
+ }
+ .findStoreMapBarLeft>h2{
+  padding-top: 40vh;
+  text-align: center;
+ }
+ .findStoreMapBarLeft>p{
+  padding-top: 3vh;
+  text-align: left;
+  padding-left: 8.5vw;
+ }
+ .findLiquorStore{
+  /* border: 2px solid rebeccapurple; */
+  height: 7vh;
+  width: 20vw;
+  margin-top: 3vh;
+  border-radius: 5vh;
+  position: relative;
+  left: 8.5vw;
+  text-align: center;
+  padding: 1.5vh;
+  background: #a2055e;
+}
+.findLiquorStore>a{
+  color: white;
+  font-size: 120%;
+  text-decoration: none;
+}
+.findStoreMapBarRight{
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 60vw;
+}
+.findStoreMapBarRight>img{
+  height: 75vh;
+  width: 52vw;
+  margin-left: 2vw;
+  margin-top: 10vh;
+}
+ 
+
+
+
+
+
+
+ /* Find Location Bar */
+ /* ------------------------------------------------------------------------- */
+.findLocationBar{
+  /* border: 2px solid rebeccapurple; */
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: #f2f2f2;
+  /* border: 2px solid red;  */
+}
+.headTop{
+  text-align: center;
+  color: rgb(156, 4, 4);
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 5vh;
+
+}
+.H4Pickup{
+  color: #553131;
+  text-align: center;
+  margin-top: 2vh;
+}
+.city{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+.bbl{
+  list-style-type: none;
+}
+.delhiNcr{
+  /* border: 2px solid rebeccapurple; */
+  height: 65vh;
+  width: 33vw;
+}
+.delhiNcr>ul>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+  list-style-type: none;
+
+}
+.delhiNcr>ul>li>a{
+  color: rgb(156, 4, 4);
+  list-style-type: none;
+  position: relative;
+  left: 10vw;
+  line-height: 11vh;
+  text-decoration: none;
+  font-size: 110%;
+}
+.punjab{
+  /* border: 2px solid rebeccapurple; */
+  height: 65vh;
+  width: 33vw;
+}
+.punjab>ul>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.punjab>ul>li>a{
+  color: rgb(156, 4, 4);
+  list-style-type: none;
+  position: relative;
+  left: 10vw;
+  line-height: 11vh;
+  text-decoration: none;
+  font-size: 110%;
+}
+.up{
+  /* border: 2px solid rebeccapurple; */
+  height: 65vh;
+  width: 33vw;
+}
+.up>ul>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.up>ul>li>a{
+  color: rgb(156, 4, 4);
+  list-style-type: none;
+  position: relative;
+  left: 10vw;
+  line-height: 11vh;
+  text-decoration: none;
+  font-size: 110%;
+}
+.maharastra{
+  /* border: 2px solid rebeccapurple; */
+  height: 65vh;
+  width: 33vw;
+}
+.maharastra>ul>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  /* color: rgb(97, 3, 3); */
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.maharastra>ul>li>a{
+  color: rgb(156, 4, 4);
+  list-style-type: none;
+  position: relative;
+  left: 10vw;
+  line-height: 11vh;
+  text-decoration: none;
+  font-size: 110%;
+}
+.viewAllLocation{
+  /* border: 2px solid rebeccapurple; */
+  height: 7vh;
+  width: 20vw;
+  margin-bottom: 5vh;
+  border-radius: 5vh;
+  position: relative;
+  left: 40vw;
+  text-align: center;
+  padding: 1.5vh;
+  background: #a2055e;
+}
+.viewAllLocation>a{
+  color: white;
+  font-size: 120%;
+  text-decoration: none;
+}
+
+  
+
+
+
+ /* Top Brands Bar CSS */
+ /* ------------------------------------------------------------------------- */
+.topBrandsBar{
+  height: 100vh;
+  /* width: 100vw; */
+  /* border: 2px solid rebeccapurple; */
+}
+.headTopBrand{
+  text-align: center;
+  color: rgb(156, 4, 4);
+  /* font-family: Quicksand; */
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10vh;
+  /* border: 2px solid rebeccapurple; */
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+  /* border: 2px solid rebeccapurple; */
+}
+.top>a{
+  padding: 2vh;
+  width: 19.7vw;
+  height: 41vh;
+  /* border: 2px solid rebeccapurple; */
+}
+.top>a>img{
+  height: 40vh;
+  width: 15vw;
+
+} 
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+  /* border: 2px solid rebeccapurple; */
+}
+.bottom>a{
+  /* border: 2px solid rebeccapurple; */
+  padding: 2vh;
+  width: 19.7vw;
+  
+}
+.bottom>a>img{
+  height: 40vh;
+  width: 15vw;
+} 
+
+
+/* Footer Bar CSS */
+ /* ------------------------------------------------------------------------- */
+
+.footerBar{
+  /* border:2px solid red; */
+  height: 70vh;
+  background-color: #f2f2f2;
+}
+.firstHalf{
+  display: flex;
+  height: 40vh;
+}
+.about{
+ width: 33vw;
+ text-align: center;
+ margin-top: 4vh;
+}
+.about>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  /* color: rgb(97, 3, 3); */
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+  .about>ul{
+  list-style-type: none;
+}
+.about>ul>li{
+  line-height: 35px;
+}
+.about>ul>li>a{
+  color: rgb(156, 4, 4);
+font-size: 109%;
+font-weight: 500! important;
+font-family: sans-serif;
+font-style:initial;
+text-decoration: none;
+}
+.last{
+  width: 33vw;
+  margin-top: 4vh;
+}
+.last>.follow>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  /* color: rgb(156, 4, 4); */
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.last>.follow>a>i{
+  position: relative;
+  /* border: 2px solid red; */
+  left: 7vw;
+  padding: 2vh;
+  margin-top: 2vh;
+}
+#fb{
+  color: #3b5998; 
+}
+#twitter{
+  color: #14171A; 
+}
+#instagram{
+  color: #E1306C;
+}
+.app{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.last>.app>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  /* color: rgb(156, 4, 4); */
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.last>.app>a>i{
+  position: relative;
+  left: 8vw;
+  padding: 2vh;
+  margin-top: 2vh;
+}
+#playStore{
+ color: rgb(56, 52, 52);
+}
+#appStore{
+  color: #0088cc;
+}
+.last>.payment>p{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(69, 63, 63);
+  /* color: rgb(156, 4, 4); */
+  font-weight: 900;
+  font-size: large;
+  padding-top: 1vh;
+  font-family: sans-serif;
+}
+.last>.payment>a>i{
+  position: relative;
+  left: 7.5vw;
+  margin-top: 2vh;
+  padding: 2vh;
+}
+#mastercard{
+  /* color: (#eb001b, #ff5f00,#f79e1b); */
+  /* color: color-mix(in srgb-linear, #eb001b 70%, #ff5f00  50%,#f79e1b 70%); */
+  color: #eb001b ;
+}
+ #visacard{
+   color: #1A1F71;
+ }
+
+.secondHalf{
+  margin-top: 5vh;
+}
+.secondHalf>p{
+  color: rgb(156, 4, 4);
+  margin-top: 2vh;
+  text-align: center;
+}
+.secondHalf>p>a{
+color: rgb(156, 4, 4);
+font-size: 109%;
+font-weight: 500! important;
+font-family: sans-serif;
+font-style:initial;
+text-decoration: none;
+}
+.secondHalf>p>i{
+  color: rgb(197, 7, 7);
+}
+.secondHalf>p>span{
+  color: rgb(156, 4, 4);
+}
+#warning{
+  color: rgb(156, 4, 4);
+  font-weight: 400;
+  margin-top: 5vh;
+}
+#spanWarning
+{
+  color: red;
+  font-weight: 500;
+  font-size: larger;
+}
